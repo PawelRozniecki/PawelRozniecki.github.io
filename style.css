@@ -1,8 +1,67 @@
 
- #section2{
-     background-color: #ffffff;
+ #technologies{
+     background-color: #ffffff;    padding: 100px 0 130px 0;
+    color: #616161;
  }
+ .header{
+     color: #444649;
+     font-size: 35pt;
+     font-family: 'Raleway';
 
+
+ }
+#message{
+    height: 100px;
+}
+
+.submit-btn{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-family: 'Raleway';
+}
+.submit-btn:hover{
+    background-color: #00a8ff;
+    transition-duration: 0.7s;
+    border-color: #00a8ff;
+}
+
+ .contact-underline:after{
+     display:block;
+     content: "";
+     border-bottom: 4px solid;
+     border-color: #ffffff;
+     padding: 10px;
+     width: 70px;
+     margin: 0 auto;
+ }
+ .underline:after{
+     display:block;
+     content: "";
+     border-bottom: 4px solid;
+     border-color: #444649;
+     padding: 10px;
+     width: 70px;
+     margin: 0 auto;
+
+
+ }
+ .form-control{
+     margin: 10px auto;
+    width: 60%;
+ }
+#contact{
+    padding: 50px;
+    background-color: #252934;
+    color: #ffffff;
+
+}
+#projects{
+    background-color: #ffffff;
+
+}
   .profilePlaceholder{
 
 position: relative;
@@ -21,19 +80,20 @@ transition: 0.5s ease-out;
 
         }
         .navbar{
-            position:absolute;
-z-index: 1;
-            float: right;
+            top:0;
+            position: fixed;;
+        z-index: 10;
+            width: 100%;
+
 
             
-            background-color: transparent;
         }
         .nav-link{
             color: white;
                         font-family: 'Roboto Mono', monospace;
 
             position: relative;
-               float: right;
+
                 font-weight: bold;
         }
         .highlight{
@@ -84,8 +144,7 @@ animation-delay: 0.2s;
     }
      #chevron3{
          display: table;
-margin: auto auto;
-margin-top: 60vh;
+
         font-size: 22px;
 
         color: white;
