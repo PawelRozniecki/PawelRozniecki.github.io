@@ -109,10 +109,12 @@
 
     <div class="form-container">
 
-        <form class="form" method="get" action="email.php">
+        <form class="form" method="post" action="email.php">
 
             <input  class="form-control" type="text" placeholder="enter your name" name="name">
             <input class="form-control"  type="email" placeholder="enter your email" name="email">
+            <input class="form-control"  type="text" placeholder="Email subject" name="subject">
+
             <textarea id="message" class="form-control" type="text" placeholder="your message" name="message"></textarea>
 
             <input class="submit-btn" value="SEND" type="submit" name="btn">
