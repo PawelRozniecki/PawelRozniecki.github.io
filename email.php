@@ -1,10 +1,10 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
-$submit = $_POST['btn'];
+$name = $_GET['name'];
+$email = $_GET['email'];
+$message = $_GET['message'];
+$submit = $_GET['btn'];
 
-if($submit){
+if(isset($submit)){
 
     mail("pawelrozniecki13@outlook.com",$name,$message,$email);
 }
