@@ -1,10 +1,17 @@
 <?php
-$name = $_GET['name'];
-$email = $_GET['email'];
-$message = $_GET['message'];
-$submit = $_GET['btn'];
+
+$submit = $_POST['btn'];
 
 if(isset($submit)){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
+    $subject = $_POST['subject'];
 
-    mail("pawelrozniecki13@outlook.com",$name,$message,$email);
+    $mailTo = "pawelrozniecki13@outlook.com";
+    $headers = "From:".$name;
+    $txt = "You have received an email from ".$name.".\n\n".$message;
+
+    mail($mailTo,$subject,$txt,$headers);
+    header("Location : index.php>mailSend");
 }
