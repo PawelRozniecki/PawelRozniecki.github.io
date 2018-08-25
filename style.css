@@ -3,6 +3,80 @@
      background-color: #ffffff;    padding: 100px 0 130px 0;
     color: #616161;
  }
+
+ .card-title{
+     font-family: 'Raleway';
+     font-weight: bold;
+
+ }
+ .card{
+     margin-bottom: 50px;
+     margin-top: 30px;
+ }
+ .footer-text{
+
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     color: #a4b0be;
+     text-align: center;
+
+
+ }
+
+.icon-container{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    width: 70%;
+    margin: 40px auto;
+    height: 80px;
+}
+.box{
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}.box1{
+     display: inline-block;
+     position: relative;
+     width: 60px;
+     height: 60px;
+float: left;
+
+     background-color: #57606f;
+
+ }
+ .card-body{
+    height: 160px;
+     padding: 4px;
+ }
+.box:hover{
+    background-color: #00a8ff;
+    transition-duration: 0.7s;
+    border-color: #00a8ff;}
+ .scrollToTop{
+     z-index: 200;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     left:0;
+     right:0;
+
+     margin:-25px auto;
+     background-color: #e91e63
+ ;
+ }
+
+ .footer{
+     position: relative;
+     background-color:#1B242F;
+     height: 180px;
+     width: 100%;
+
+ }
  .header{
      color: #444649;
      font-size: 35pt;
